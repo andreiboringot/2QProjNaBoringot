@@ -1,0 +1,84 @@
+body {
+    background: no-repeat center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+li {
+    float: right;
+}
+  
+li a{
+    display: block;
+    text-align: center;
+    padding: 15px 12px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: rgb(226, 216, 216);
+}
+
+h1 {
+    position: relative;
+    color: white;
+    font-size: 45px;
+    top: 10%;
+    left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article > h4 {
+    position: relative;
+    top: 10px;
+    left: 165px;
+    color: #FFFFFF;
+}
+
+ol li {
+    position: absolute;
+    left: 200px;
+    color: rgb(224, 224, 224);
+}
+
+article#define {
+    color: white;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+
+span {
+    background-color: rgb(184, 44, 44);
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+article > p {
+    position: relative;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    top: 300px;
+}
+
+.sprite {
+    background: url('../images/icon.png') no-repeat -10px -10px;
+    width: 66px;
+    height: 66px;
+}

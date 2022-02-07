@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(90, 86, 86);
+    overflow-x: hidden;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+  
+li {
+    float: right;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 15px 12px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: rgb(226, 216, 216);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+}
+
+table {
+    width: 500px;
+    height: 500px;
+    z-index: -1;
+}
+
+caption {
+    font-size: 30px;
+}
+
+table#t01 {
+    position: relative;
+    left: 50px;
+}
+
+p {
+    position: relative;
+    left: 50px;
+}
+
+table#t02 {
+    position: relative;
+    left: 800px;
+    right: 50px;
+}
+
+table#t03 {
+    position: relative;
+    left: 50px;
+}
+
+td {
+    background-color: rgb(184, 44, 44);
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#important {
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+footer {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.sprite {
+    background: url('../images/icon.png') no-repeat -10px -10px;
+    width: 66px;
+    height: 66px;
+}
